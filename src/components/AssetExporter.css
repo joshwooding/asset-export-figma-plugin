@@ -1,0 +1,40 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.empty-message {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.assetList {
+	margin: 0;
+	flex: 1;
+}
+
+.toolbar {
+	flex: 0;
+	padding: var(--salt-spacing-100) var(--salt-spacing-200);
+	border-top: var(--salt-size-border) var(--salt-separable-borderStyle)
+		var(--salt-separable-primary-borderColor);
+    align-items: center;
+}
+
+.assetListItem {
+	align-items: center;
+}
+
+.assetListItem .assetPreview {
+	padding: var(--salt-spacing-25);
+	background: repeating-conic-gradient(lightgray 0 25%, white 0 50%) 50% / 5px
+		5px;
+	border-radius: var(--salt-palette-corner-weaker);
+}
+
+.assetListItem .exportButton {
+	margin-left: auto;
+}

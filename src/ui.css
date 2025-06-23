@@ -1,0 +1,10 @@
+#root {
+	height: 100%;
+	width: 100%;
+}
+
+html,
+body {
+	margin: 0;
+	background: var(--salt-container-primary-background);
+}
